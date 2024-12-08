@@ -1,10 +1,13 @@
-try{
-    document.getElementsByClassName("ot-pc-refuse-all-handler")[0].click()
-    document.getElementById("onetrust-reject-all-handler").click()
+function rejectCookies(){
+    try{
+        document.getElementsByClassName("ot-pc-refuse-all-handler")[0].click()
+    }
+    catch(err){
+        document.getElementById("onetrust-reject-all-handler").click()
+    }
 }
-catch(err){
-    console.log("No cookies to reject")
-}
-
+setTimeout(rejectCookies, 5000);
+setTimeout(rejectCookies, 10000);
+setTimeout(rejectCookies, 15000);
 
 
