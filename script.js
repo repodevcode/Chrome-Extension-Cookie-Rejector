@@ -1,0 +1,1 @@
+document.getElementsByClassName("ot-pc-refuse-all-handler")[0].click()
