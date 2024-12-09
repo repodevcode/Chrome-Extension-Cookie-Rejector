@@ -18,7 +18,7 @@ function rejectCookies(){
         }
     }
 }
-setTimeout(rejectCookies, 5000);
+setTimeout(rejectCookies, 1000);
 
 
 //TODO: optimize program by using lists to save IDs
